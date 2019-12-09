@@ -553,7 +553,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 3631d3965bfd3a8429eb0111da2891c3, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.48
+  m_Volume: 0.61
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -12494,7 +12494,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4158a4c7952abfc42bad11961d909561, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.25
+  m_Volume: 0.52
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -13343,6 +13343,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Harri's Home
       objectReference: {fileID: 0}
+    - target: {fileID: 6245910591630384033, guid: ae22eb15b18bc5e458795b0f663a65c6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6245910592386678566, guid: ae22eb15b18bc5e458795b0f663a65c6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13407,11 +13412,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_MinSize
       value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6245910591630384033, guid: ae22eb15b18bc5e458795b0f663a65c6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae22eb15b18bc5e458795b0f663a65c6, type: 3}
