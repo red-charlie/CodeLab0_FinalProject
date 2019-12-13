@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
 
     public void CompleteTheGame()
     {
-        GameComplete = true; //you have completed the game
+        GameComplete = true; //you have completed the game congrats
 
     }
 
@@ -47,7 +47,7 @@ public class GameManager : MonoBehaviour
 
     //     }
     // }
-    public void ResetEntireGame() //resets everything to it's original state
+    static public void ResetEntireGame() //resets everything to it's original state
 
     {
         if(GameComplete == true){

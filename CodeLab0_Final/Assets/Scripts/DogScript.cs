@@ -26,6 +26,10 @@ public class DogScript : MonoBehaviour
                                     0,
                                     Random.Range(MovementRange,-MovementRange)
                                 ));
+
+        if (DogTimerScript.TimeOut == true){
+            self.SetActive(false); // once we time out -- remove ourselves
+        }
     }
 
     void OnTriggerEnter (Collider other)
@@ -41,7 +45,6 @@ public class DogScript : MonoBehaviour
            Timer.SetActive(false);
            self.SetActive(false); //turn off myself
            
-
        }
     }
 }

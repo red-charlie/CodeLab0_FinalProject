@@ -101,6 +101,7 @@ public class CollisionDetectionScript : MonoBehaviour
             if(GameManager.HarriTalked == true)
             {
               //get dog whistle
+            
               GameManager.WhistleFound = true;
               UIStoryScript.EnterStore();
             }

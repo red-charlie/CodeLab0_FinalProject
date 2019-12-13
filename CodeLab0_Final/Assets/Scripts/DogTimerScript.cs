@@ -10,6 +10,8 @@ public class DogTimerScript : MonoBehaviour
     public Text TimerText;
     public GameObject self;
 
+    static public bool TimeOut = false;
+
     // Start is called before the first frame update
  void Start ()
  {
@@ -26,6 +28,7 @@ public class DogTimerScript : MonoBehaviour
         if (timer <= 0){
             UIStoryScript.TimeOut(); //time runs out and the game ends
            self.SetActive(false); //turn myself off
+           TimeOut = true;
         }
         
     }

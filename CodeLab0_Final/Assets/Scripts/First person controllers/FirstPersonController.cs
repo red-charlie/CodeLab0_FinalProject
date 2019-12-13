@@ -40,6 +40,7 @@ public class FirstPersonController : MonoBehaviour
           if(UIStoryScript.IsOver ==true)
           {
              GameManager.GameComplete = true;
+             GameManager.ResetEntireGame();
             
              //end the game
             Sc.ChangeScene();
@@ -49,7 +50,7 @@ public class FirstPersonController : MonoBehaviour
        }
        if(Input.GetKeyDown(KeyCode.E))
        {
-          if (GameManager.WhistleFound == true)
+          if (GameManager.WhistleFound == true && DogTimerScript.TimeOut == false) //if you have the whistle and the timer isn't over
           {
              //blow whistle
              Whistle.Play(); //plauy the whistle sound
